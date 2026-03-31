@@ -100,14 +100,7 @@ PALAY  9.994342 122.397636
 
 **Note: we assume at wartime to introduce fuel measures.**
 
-$
-d = 2R \arcsin \left(
-\sqrt{
-\sin^2\left(\frac{\phi_2 - \phi_1}{2}\right)
-+ \cos(\phi_1)\cos(\phi_2)\sin^2\left(\frac{\lambda_2 - \lambda_1}{2}\right)
-}
-\right)
-$
+$d = 2R \arcsin \left( \sqrt{ \sin^2\left(\frac{\phi_2 - \phi_1}{2}\right) + \cos(\phi_1)\cos(\phi_2)\sin^2\left(\frac{\lambda_2 - \lambda_1}{2}\right) } \right)$
 
 Where:
 
