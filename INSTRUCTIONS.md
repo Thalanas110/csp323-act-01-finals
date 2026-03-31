@@ -15,7 +15,7 @@ The objective is to determine the **shortest possible route** that visits all se
 
 - Visit all inspection waypoints  
 - Minimize total travel distance  
-- Start and end at **RPUB (Basa Air Base, Pampanga)**  
+- Start and end at **RPUB (Basa Air Base, Pampanga)** (**but can be made random as again, we assume wartime constraints and realities.**)
 - Maintain route validity (no missing or duplicated waypoints unless handled properly)  
 
 ---
@@ -119,3 +119,7 @@ Include helper logic such as:
 - Optimized route satisfying all objectives  
 
 ---
+
+
+
+
