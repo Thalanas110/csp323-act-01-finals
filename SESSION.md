@@ -107,15 +107,4 @@ Where:
 - $R = 6371 \text{ km}$ (Earth's radius)  
 - $\phi_1, \phi_2$ = latitudes of the two waypoints (in radians)  
 - $\lambda_1, \lambda_2$ = longitudes of the two waypoints (in radians)  
-Task:  
-Given the formulas above, the task is to do the same exact situation in the Memetic GA as given on the code.
 
-\-\> Algorithm is required.  
-\-\> List the parts of the code as well.
-
-Example:
-
-1. Function to eliminate unordered  
-   *Increment \- 1;*
-
-Deadline:  Apr 10, 2026
