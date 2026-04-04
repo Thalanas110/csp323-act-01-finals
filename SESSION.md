@@ -78,17 +78,17 @@ PALAY  9.994342 122.397636
    *Explanation: provide initial state via random sample in this case.*
 
 2. *Evaluate all neighboring states (all the PH waypoints above technically)*  
-1. *Compute distance between the initial state and the neighboring states(Add the cumulative distance of initial state and neighboring states)*
+   a. *Compute distance between the initial state and the neighboring states(Add the cumulative distance of initial state and neighboring states)*
 
-   *nb\_d \= route\_distance(nb)*
+      *nb\_d \= route\_distance(nb)*
 
-   *Explanation: haversine formula usage for computing distance between states,*
+      *Explanation: haversine formula usage for computing distance between states,*
 
-2. *Save distance and output of \[a\], which is the current computed distance*  
-3. *Compare the \[a\] to the next \[b\], neighboring state distance (by choosing the shortest distance)*  
-4. *Save the shortest distance \[c\] to the variable \[a\].*  
-5. *The current distance will be the \[a\]*  
-6.  *Repeat comparison (procedures a-e) for all remaining neighboring states*  
+   b. *Save distance and output of \[a\], which is the current computed distance*  
+   c. *Compare the \[a\] to the next \[b\], neighboring state distance (by choosing the shortest distance)*  
+   d. *Save the shortest distance \[c\] to the variable \[a\].*  
+   e. *The current distance will be the \[a\]*  
+   f.  *Repeat comparison (procedures a-e) for all remaining neighboring states*  
 3. *Select the best neighbor (the one with the shortest distance) Once we completed all the comparison procedures of all remaining neighboring states*  
      
      
@@ -96,7 +96,7 @@ PALAY  9.994342 122.397636
    
 
 **Algorithm:**  
-**\-\> Genetic Algorithm (non-memetic/memetic)**
+**\-\> Genetic Algorithm (memetic)**
 
 **Note: we assume at wartime to introduce fuel measures.**
 
